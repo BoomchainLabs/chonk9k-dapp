@@ -1,21 +1,35 @@
-# Vue 3 + Vite
+$CHONK9K DApp
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A decentralized application (DApp) frontend for $CHONK9K, optimized with Vite, TypeScript, and Tailwind CSS. This project serves as the foundation for interacting with the $CHONK9K token on the Solana blockchain. Ready for Vercel deployment, it offers seamless wallet integrations, token transfers, and utilities for users to engage with $CHONK9K and Chonky Cosmos NFTs.
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+⸻
 
-## Deploy Your Own
+Features
+	•	Vite-based frontend for fast builds and hot-reloading.
+	•	Solana wallet integration (e.g., Phantom) for $CHONK9K token interactions.
+	•	Tailwind CSS for a modern and responsive UI.
+	•	TypeScript for type safety and enhanced development experience.
+	•	Optimized for Vercel with automatic preview deployments.
+	•	Customizable environment configurations for Solana and token functionalities.
 
-Deploy your own Vite project with Vercel.
+⸻
 
-[![Deploy with Vercel](https://vercel.com/button)]([https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite](https://vercel.com/new/clone?demo-description=Vite%2FVue.js%20site%20that%20can%20be%20deployed%20to%20Vercel&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2T4BUF3mEBKPJF3jcjU6nS%2F0d4a02e7c48091d13814a4ab513e8734%2FScreen_Shot_2022-04-13_at_10.05.56_PM.png&demo-title=Vite%20-%20Vue&demo-url=https%3A%2F%2Fvite-vue-template.vercel.app%2F&from=templates&project-name=Vite%20-%20Vue&repository-name=vite-vue&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fvite&skippable-integrations=1))
+Tech Stack
+	•	Frontend Framework: Vite
+	•	Blockchain: Solana
+	•	Wallet Integration: Phantom, Sollet
+	•	Styling: Tailwind CSS
+	•	State Management: Zustand (optional, based on project needs)
+	•	Deployment: Vercel
+	•	Environment Management: .env files for environment-specific variables
 
-_Live Example: https://vite-vue-template.vercel.app_
+⸻
 
-### Deploying From Your Terminal
+Getting Started
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+Prerequisites
 
-```shell
-$ vercel
-```
+Before you begin, ensure you have the following installed:
+	•	Node.js (v14 or higher)
+	•	npm or Yarn (for package management)
+	•	A Solana wallet (e.g., Phantom) for testing and integration.
