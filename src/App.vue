@@ -1,30 +1,41 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app">
+    <Navbar />
+
+    <main class="main-content">
+      <router-view />
+    </main>
+
+    <WalletModal v-if="showWalletModal" @close="showWalletModal = false" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
+<script setup lang="ts">
+// Corporate-grade TypeScript setup for robustness
+import { ref } from 'vue';
+import { useWallet } from '@/composables/useWallet'; // Abstracted wallet hook
+import Navbar from '@/components/Navbar.vue';
+import WalletModal from '@/components/WalletModal.vue';
+
+// Wallet connection modal state
+const showWalletModal = ref(false);
+
+// Initialize wallet connection strategies
+useWallet();
+</script>
+
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* Future-proof UI baseline */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  font-family: 'Inter', sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
 }
 </style>
