@@ -85,3 +85,49 @@ watch(publicKey, (newKey) => {
 onUnmounted(() => {
   stopAutoRefresh();
 });
+
+<script lang="ts">
+import { tokenBalances } from '@/composables/useTokenBalances';
+import { getTokenMetadata } from '@/composables/useTokenMetadata';
+</script>
+
+<template>
+  <div v-if="tokenBalances.length">
+    <h2>Your Token Balances:</h2>
+    <ul>
+      <li v-for="token in tokenBalances" :key="token.mint" class="token-item">
+        <img
+          v-if="getTokenMetadata(token.mint)?.logoURI"
+          :src="getTokenMetadata(token.mint)?.logoURI"
+          alt="token logo"
+          class="token-logo"
+        />
+        <span class="token-symbol">
+          {{ getTokenMetadata(token.mint)?.symbol || 'Unknown' }}
+        </span>
+        :
+        <span class="token-amount">{{ token.amount }}</span>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<style scoped>
+.token-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.token-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.token-symbol {
+  font-weight: bold;
+}
+.token-amount {
+  font-family: monospace;
+}
+</style>
