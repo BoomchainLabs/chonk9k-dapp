@@ -50,8 +50,8 @@ cd chonk9k-dapp
 Create a .env.local file in the root directory and configure the following:
 VITE_SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
 VITE_PHANTOM_WALLET_URL=https://www.phantom.app/
-VITE_CHONK9K_TOKEN_ADDRESS=DnUsQnwNot38V9JbisNC18VHZkae1eKK5N2Dgy55pump
-
+PUMP_CHONK9K_TOKEN_ADDRESS=DnUsQnwNot38V9JbisNC18VHZkae1eKK5N2Dgy55pump
+RAYDIUM_CHONK_9000_TOKEN_ADRESSS=51ey1T4UCFwb8poVBwyiLwwi1KdNTrZ8rSg7kBRmqray
 Start the development server:
 If using npm:
 npm run dev
