@@ -1,10 +1,7 @@
 {
   "tasks": {
-    "build": "fresh build",
+    "dev": "fresh dev",
     "start": "fresh start",
-    "dev": "fresh dev"
-  },
-  "imports": {
-    "fresh/": "https://deno.land/x/fresh@1.5.1/"
+    "build": "fresh build"
   }
 }
