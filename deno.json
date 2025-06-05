@@ -1,5 +1,10 @@
 {
   "tasks": {
-    "build": "deno run -A scripts/build.ts"
+    "build": "fresh build",
+    "start": "fresh start",
+    "dev": "fresh dev"
+  },
+  "imports": {
+    "fresh/": "https://deno.land/x/fresh@1.5.1/"
   }
 }
