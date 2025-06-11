@@ -5,7 +5,7 @@ specifiers:
   vite-plugin-pwa: ^1.0.0
 
 dependencies:
-  postcss: 8.5.4
+  postcss: 8.5.5
 
 devDependencies:
   vite-plugin-pwa: 1.0.0
@@ -2231,8 +2231,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /postcss/8.5.4:
-    resolution: {integrity: sha512-QSa9EBe+uwlGTFmHsPKokv3B/oEMQZxfqW0QqNCyhpa6mB1afzulwn8hihglqAb2pOw+BJgNlmXQ8la2VeHB7w==}
+  /postcss/8.5.5:
+    resolution: {integrity: sha512-d/jtm+rdNT8tpXuHY5MMtcbJFBkhXE6593XVR9UoGCH8jSFGci7jGvMGH5RYd5PBJW+00NZQt6gf7CbagJCrhg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.11
