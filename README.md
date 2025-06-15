@@ -2,8 +2,8 @@
 
 <!-- x-release-please-start-version -->
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.earn_app.api/earn-app-kotlin)](https://central.sonatype.com/artifact/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.0)
-[![javadoc](https://javadoc.io/badge2/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.0/javadoc.svg)](https://javadoc.io/doc/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.0)
+[![Maven Central](https://img.shields.io/maven-central/v/com.earn_app.api/earn-app-kotlin)](https://central.sonatype.com/artifact/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.1)
+[![javadoc](https://javadoc.io/badge2/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.1/javadoc.svg)](https://javadoc.io/doc/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.1)
 
 <!-- x-release-please-end -->
 
@@ -13,7 +13,7 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 <!-- x-release-please-start-version -->
 
-The REST API documentation can be found on [lerfhub.xyz](https://lerfhub.xyz). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.0).
+The REST API documentation can be found on [lerfhub.xyz](https://lerfhub.xyz). KDocs are available on [javadoc.io](https://javadoc.io/doc/com.earn_app.api/earn-app-kotlin/0.0.1-alpha.1).
 
 <!-- x-release-please-end -->
 
@@ -24,7 +24,7 @@ The REST API documentation can be found on [lerfhub.xyz](https://lerfhub.xyz). K
 ### Gradle
 
 ```kotlin
-implementation("com.earn_app.api:earn-app-kotlin:0.0.1-alpha.0")
+implementation("com.earn_app.api:earn-app-kotlin:0.0.1-alpha.1")
 ```
 
 ### Maven
@@ -33,7 +33,7 @@ implementation("com.earn_app.api:earn-app-kotlin:0.0.1-alpha.0")
 <dependency>
   <groupId>com.earn_app.api</groupId>
   <artifactId>earn-app-kotlin</artifactId>
-  <version>0.0.1-alpha.0</version>
+  <version>0.0.1-alpha.1</version>
 </dependency>
 ```
 
