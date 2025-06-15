@@ -27,9 +27,9 @@ configure<PublishingExtension> {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/stainless-sdks/earn-app-kotlin.git")
-                    developerConnection.set("scm:git:git://github.com/stainless-sdks/earn-app-kotlin.git")
-                    url.set("https://github.com/stainless-sdks/earn-app-kotlin")
+                    connection.set("scm:git:git://github.com/BoomchainLabs/chonk9k-dapp.git")
+                    developerConnection.set("scm:git:git://github.com/BoomchainLabs/chonk9k-dapp.git")
+                    url.set("https://github.com/BoomchainLabs/chonk9k-dapp")
                 }
 
                 versionMapping {
