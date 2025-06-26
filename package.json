@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "postcss": "^8.4.21"
-  },
-  "devDependencies": {
-    "postcss": "^8.4.21",
-    "vite-plugin-pwa": "^1.0.0"
-  }
-}
